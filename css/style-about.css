@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+          /*? change the site color. */
+            background-color: rgb(255, 0, 183);
+            width: 100%;
+            max-width: 1700px;
+            margin-top: 20px;
+  }
+  
+/* ? Mission Section */
+.section-mission {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 35px;/* Added padding to push content down */
+}
+
+.title-mission {
+   /*? color for the title   */
+  color:rgb(227, 9, 60);
+  font-size: 50px;
+  /* margin-bottom: 20px; */
+  margin: 20px 0 20px; /* Added top margin to move it down */
+}
+
+.section-mission-panel {
+  background-color: rgb(63, 226, 207);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* ? no use --- .mission-content { margin: 10px 0;} */
+
+  /*? Slogan Section */
+ 
+    /* General Styles */
+
+  /* Slogan Section */
+  .section-slogan {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .title-slogan {
+    color: red;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .section-slogan-panel {
+    background-color: rgb(235, 235, 140);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .slogan1, .slogan2, .slogan3, .slogan4 {
+    margin: 10px 0;
+  }
+  
+  .slogan1 { color: blue; }
+  .slogan2 { color: rgb(237, 74, 74) ; }
+  .slogan3 { color: green; }
+  .slogan4 { color: brown; }
+
+  /* Footer  goes to style-footer.css*/
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+   .title-mission {
+      font-size: 40px;
+    }
+    .title-slogan{
+      font-size:35px;
+    }
+    
+          

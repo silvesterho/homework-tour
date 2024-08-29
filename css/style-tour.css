@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+        .container {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            /* flex-wrap: wrap; */
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1700px;
+            margin-top: 51px;
+            background-color: rgb(255, 0, 144) ;
+        }
+
+        .title {
+            text-align: center; /* 中心對齊標題和消息 */
+            margin: 20px 0; /* 標題周圍的空間 */
+        }
+       
+        .title h1 {
+            font-size: 3em; /* 增加標題字體大小 */
+            color: white ; /* 標題的深色 */
+            font-weight: bold;
+        }
+        
+        .title p {
+            padding: 10px;
+            font-size: 1.5em; /* 消息的稍大字體 */
+            font-weight: bold;
+            color: #666; /* 消息的淺色 */
+            max-width: 800px; /* 限制寬度以提高可讀性 */
+            margin: 0 auto; 
+            color: yellow;/* 中心對齊消息 */
+        } 
+
+        .row{
+             display: flex;
+             justify-content: center;
+             margin:10px 0;   
+
+        }
+
+        .box {
+            background-color: rgb(233, 180, 180);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 0 10px;
+            flex: 1 1 30%;
+            min-width: 250px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 2.0em;
+            color: #1d1c1c;
+        }
+
+        h3{ 
+          font-size: 1.3em;
+            color: green;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: brown;
+        }
+
+        .price {
+            font-size: 1.2em;
+            color: #7b021a;
+            font-weight: bold;
+        }
+
+        @media(max-width: 800px){
+            .hideOnMobile{
+              display: none;
+            }
+            .row{
+                flex-direction: column;
+                align-items: center;
+            }
+            .box{
+                max-width: 90%;
+                margin:10px 0
+            }
+        }

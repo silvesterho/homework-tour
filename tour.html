@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATC-旅遊產品頁面</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style-tour.css">
+  <link rel="stylesheet" href="./css/style-footer.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+          <ul class="sidebar">
+            <li onclick=hideSidebar()>
+              <a href="#">
+                    <img src="close_x.svg" alt="close_x" height="26" width="26">
+              </a>
+            </li>
+
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./tour.html">Tour</a></li>
+            <li><a href="./service.html">Services</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+          <ul>
+            <li>
+              <a href="index.html">
+                 <img src="./images/A.svg" alt="Logo" class="logo">
+                  <span class="company">Advance Tourist Company</span></a>
+             </li>
+
+
+
+
+             <li class="hideOnMobile"><a href="./index.html">Home</a></li>
+            <li class="hideOnMobile">
+              <a href="./tour.html">Tour</a></li>
+            <li class="hideOnMobile">
+              <a href="./services.html">Services</a></li>
+            <li class="hideOnMobile">
+              <a href="./about.html">About</a></li>
+            <li class="hideOnMobile">
+              <a href="./contact.html">Contact</a></li>
+          
+            <li class="menu-button" onclick=showSidebar()>
+              <a href="#">
+                <img src="hamburger.svg" alt="hamburger" height="26" width="26">
+              </a>
+            </li>
+          </ul>
+        </nav>
+        </header>
+              <!-- the above is for Nav Bar ----- -->
+
+
+    
+  <!-- start tours page--- -->
+
+  <div class="container">
+    
+      <div class="title">
+          <h1>我們的旅遊</h1>
+          <p>探索我們多樣化的旅遊套餐，旨在為每位旅客創造難忘的回憶和體驗。</p>
+      </div>
+       
+      <div class="row">    
+      <!-- add a new class called row ----->
+           <div class="box">
+            <img src="./images/boat2.webp" alt="郵輪假期" class="image">
+                <div class="content">
+                <h2>郵輪假期</h2>
+                <h3>享受奢華的郵輪假期，
+                  探索美麗的海洋景觀。</h3>
+                <p class="price">價格: $88,000</p>
+                </div>
+           </div>
+
+              
+           <div class="box">
+                <img src="./images/bali1.jpg" alt="蜜月假期" class="image">
+            <div class="content">
+                <h2>兩人蜜月假期</h2>
+                <p>私人時間，我們為你特別設計的節目，酒店，和其他活動。</p>
+                <p class="price">價格: $58,000</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/couple2.jpg" alt="旅遊套餐" class="image">
+            <div class="content">
+                <h2>預定的旅遊套餐</h2>
+                <p>價廉物美，超值享受，無與倫比的旅遊體驗！</p>
+                <p class="price">價格: $38,000</p>
+            </div>
+        </div>
+      <!--? The  below is for the first row close div       -->
+      </div>  
+      <!-- second row of pics <div section class="box"> -->
+
+        <div class="row">
+        <div class="box">
+            <img src="./images/boat-singapore.jpg" alt="Singapore郵輪假期" class="image">
+            <div class="content">
+                <h2></h2>
+                <h3></h3>
+                <p class="price">價格: $18,000</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/boat-china.jpg" alt="蜜月假期" class="image">
+            <div class="content"boat->
+                <h2></h2>
+                <p></p>
+                <p class="price">價格: $13,800</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/local-tour.jpg" alt="旅遊套餐" 
+            class="image" width="100%" height="300px">
+            <div class="content">
+                <h2>Cheap and Good !</h2>
+                <p>平、靚、正。兩天遊！ </p>
+                <p class="price">價格: $98</p>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+    <footer>
+      <div class="foot-container">
+        <ul class="footer-links">
+          
+    <li><a href="./index.html" class="footer-link"  >Home</a></li>
+    <li><a href="./tour.html" class="footer-link">Tour</a></li>
+    <li><a href="./services.html" class="footer-link">Services</a></li>
+    <li><a href="./about.html" class="footer-link">About</a></li>
+    <li><a href="./contact.html" class="footer-link">Contact</a></li>
+
+        </ul>
+     
+   <ul class="footer-icons">
+<li><a href="#" class="footer-icon"><i class="fab fa-facebook"></i></a></li>
+<li><a href="#" class="footer-icon"><i class="fab fa-twitter"></i></a></li>
+<li><a href="#" class="footer-icon"><i class="fab fa-squarespace"></i></a></li>
+<li><a href="#" class="footer-icon"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+
+      <p class="copyright">
+   copyright &copy; 2024 Advance Tourist Company<span id="date"></span> 先進旅遊公司版權所有。</p>
+  </footer>
+
+
+
+
+ <!-- start script---  -->
+  <script src="script_atc1.js">
+  
+  </script>
+</body>
+</html>

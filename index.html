@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATC 首頁</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <link rel="stylesheet" href="./css/style-footer.css">
+
+<body>
+  <header>
+  <nav>
+    
+
+    <ul class="sidebar">
+      <li onclick=hideSidebar()>
+        <a href="#">
+              <img src="close_x.svg" alt="close_x" height="26" width="26">
+        </a>
+      </li>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./tour.html">Tour</a></li>
+      <li><a href="./services.html">Services</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <ul>
+        <li>
+         <a href="index.html">
+            <img src="./images/A.svg" alt="Logo" class="logo">
+             <span class="company">Advance Tourist Company</span></a>
+        </li>
+        <li class="hideOnMobile">
+          <a href="./index.html">Home</a></li>
+        <li class="hideOnMobile">
+        <a href="./tour.html">Tour</a></li>
+      <li class="hideOnMobile">
+        <a href="./services.html">Services</a></li>
+      <li class="hideOnMobile">
+        <a href="./about.html">About</a></li>
+      <li class="hideOnMobile">
+        <a href="./contact.html">Contact</a></li>
+    
+      <li class="menu-button" onclick=showSidebar()>
+        <a href="#">
+          <img src="hamburger.svg" alt="hamburger" height="26" width="26">
+        </a>
+      </li>
+    </ul>
+  </nav>
+  </header>
+        <!--?- the above is for Nav Bar ----- -->
+  <section class="section-hero">
+        <div class="hero">
+          <img src="./images/love-forever-wins.jpg" alt="Love Forever Wins" class="hero-image">
+
+      </div>
+  </section>    
+  
+
+  <!--? this starts mission--- -->
+
+  <div section class="section-mission">      
+        
+      <h1 class="title-mission"> 歡迎你來先進旅遊公司</h1>
+    
+      <!-- <div section class="section-mission-panel">    -->
+ 
+      <h2 class="slogan1"><strong>我們專為新婚夫婦 </strong></h2>
+      <h2 class="slogan2"><strong>設計各式各樣嘅    </strong></h2>
+      <h2 class="slogan3"><strong>度蜜月旅行套餐 </strong></h2>
+      <h2 class="slogan4"><strong>希望能夠滿足你們的需要</strong>  </h2>
+  
+    </div>
+
+<!-- this starts footer  -->
+
+<footer>
+  <div class="foot-container">
+    <ul class="footer-links">
+      
+<li><a href="./index.html" class="footer-link"  >Home</a></li>
+<li><a href="./tour.html" class="footer-link">Tour</a></li>
+<li><a href="./services.html" class="footer-link">Services</a></li>
+<li><a href="./about.html" class="footer-link">About</a></li>
+<li><a href="./contact.html" class="footer-link">Contact</a></li>
+    </ul>
+<ul class="footer-icons">
+<li><a href="#" class="footer-icon"><i class="fab fa-facebook"></i></a></li>
+<li><a href="#" class="footer-icon"><i class="fab fa-twitter"></i></a></li>
+<li><a href="#" class="footer-icon"><i class="fab fa-squarespace"></i></a></li>
+<li><a href="#" class="footer-icon"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+
+  <p class="copyright">
+copyright &copy; 2024 Advance Tourist Company<span id="date"></span> 先進旅遊公司版權所有。</p>
+</footer>
+
+    
+  <script src="script_atc1.js">
+  
+  </script>
+</body>
+</html>
